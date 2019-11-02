@@ -1,0 +1,30 @@
+                                        Angular 8(2019.11.01)
+
+
+•	Framework to build client side applications.
+•	Component – controls a part of the screen called view. 
+                          The application logic to  support various functions like data                           
+                            binding,event binding
+                            
+                          Template – view , html
+                          Class – code , typescript, data and method
+                          Metadata – information, decorator 
+
+•	Interpolation -Use to display component property.  
+                                         One way data binding. 
+•	property binding – Use to bind data. 
+                                              Specify elements between brackets. 
+ 	Different between Interpolation and property binding 
+                            export class AppComponent {
+                                              isDisabled: boolean = true;
+                                  }
+ 
+<button [disabled]='isDisabled'>OK</button>             //Data binding
+ 
+<button disabled='{{isDisabled}}'>Cancel</button>       //Interpolation
+
+
+
+•	Class binding – use to set a class property pf view element. 
+•	Style binding – Start with prefix class
+                                          Followed by (.)
