@@ -1,0 +1,30 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Ferari",
+      "model": "Car",
+      "year": 2018,
+      "price": 2000,
+      "km": 50,
+      "engine": {
+        "consumption": 4,
+        "fuel": "diesel",
+        "power": 100
+      }
+    },
+    {
+      "brand": "Zuzuki Maruti",
+      "model": "BMW",
+      "year": 2017,
+      "price": 78225,
+      "km": 120,
+      "engine": {
+        "fuel": "electric",
+        "power": 789,
+        "consumption": 25
+      },
+      "id": 2
+    }
+  ]
+}
